@@ -1,5 +1,5 @@
 class Game
-    attr_accessor :players
+    attr_accessor :players, :current_player_index
   
     def initialize(player1, player2)
       @players = [player1, player2]
